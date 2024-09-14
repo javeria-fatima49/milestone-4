@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editable Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Resume</h1>
+        <div id="resumeDisplay">
+            <div class="resume-section">
+                <h2 id="personalInfoHeading" contenteditable="false">Personal Information</h2>
+                <p id="name" contenteditable="false">Javeria Fatima</p>
+                <p id="email" contenteditable="false">fatimajaveria@409.com</p>
+            </div>
+
+            <div class="resume-section">
+                <h2 id="educationHeading" contenteditable="false">Education</h2>
+                <p id="education" contenteditable="false">Intermidiate student </p>
+            </div>
+
+            <div class="resume-section">
+                <h2 id="skillsHeading" contenteditable="false">Skills</h2>
+                <p id="skills" contenteditable="false">JavaScript, TypeScript, HTML, CSS</p>
+            </div>
+        </div>
+        <button type="button" id="editResume">Edit Resume</button>
+                <div id="editForm" class="hidden">
+            <label for="editName">Name:</label>
+            <input type="text" id="editName">
+            <label for="editEmail">Email:</label>
+            <input type="email" id="editEmail">
+            <label for="editEducation">Education:</label>
+            <textarea id="editEducation"></textarea>
+            <label for="editSkills">Skills:</label>
+            <textarea id="editSkills"></textarea>
+            <button type="button" id="saveChanges" onclick="saveChanges()">Save Changes</button>
+            <button type="button" id="cancelEdit">Cancel</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
