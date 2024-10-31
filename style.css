@@ -1,38 +1,37 @@
 body {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #f5f5f5;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    background-color: #ffffff;
     margin: 0;
     padding: 20px;
 }
 
 .container {
-    max-width: 900px;
+    max-width: 850px;
     margin: 0 auto;
-    background-color: #90aaf2;
+    background-color: #008cba;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 8px 120px rgba(96, 115, 255, 0.991);
-    border: 3px solid #007bff;
+    border: 3px solid #0051a8;
 }
 
 h1, h2 {
     text-align: center;
-    color: #333;
+    color: #ffffff;
 }
 
 .resume-section {
     margin-top: 20px;
     padding: 15px;
-    border: 1px solid #0048ff;
+    border: 1px solid #004fb5;
     border-radius: 6px;
-    background-color: #95b3ff;
-    box-shadow: 0 10px 20px rgba(96, 115, 255, 0.991);
+    background-color: #0098cb;
 }
 
 p {
     margin: 5px 0;
-    color: #555;
+    color: #ffffff;
     padding: 5px;
+    font-size: 18px;
 }
 
 p[contenteditable="true"] {
@@ -44,7 +43,7 @@ p[contenteditable="true"] {
 
 button {
     padding: 10px 20px;
-    background-color: #4664da;
+    background-color: #00abe4;
     color: #ffffff;
     border: none;
     border-radius: 4px;
@@ -54,7 +53,7 @@ button {
 }
 
 button:hover {
-    background-color: #354b8a;
+    background-color: #007ad1;
 }
 
 .hidden {
@@ -63,10 +62,9 @@ button:hover {
 #editForm {
     margin-top: 20px;
     padding: 20px;
-    border: 1px solid #0048ff;
+    border: 1px solid #007399;
     border-radius: 6px;
-    background-color: #95b3ff;
-    box-shadow: 0 10px 20px rgba(96, 115, 255, 0.991);
+    background-color: #0092c3;
 }
 
 #editForm label {
