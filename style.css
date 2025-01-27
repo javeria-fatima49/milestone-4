@@ -1,18 +1,12 @@
 body {
-<<<<<<< HEAD
     font-family: 'Arial', sans-serif;
     background-color: #f2f5f7; 
     color: #333;
     text-align: center;
-=======
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
-    background-color: #ffffff;
->>>>>>> fd7024110ee59dd3de31ab00a9177796b3a85204
     margin: 0;
 }
 
 .container {
-<<<<<<< HEAD
     max-width: 900px;
     margin: 50px auto;
     background-color: #ffffff;
@@ -23,30 +17,22 @@ body {
 }
 header {
     background-color: #008CBA; 
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 25px;
     border-radius: 12px 12px 0 0;
-    color: #ffffff; 
 }
 .profile-pic {
     width: 130px;
     height: 130px;
     border-radius: 70%;
     border: 4px solid white; 
-=======
-    max-width: 850px;
-    margin: 0 auto;
-    background-color: #008cba;
-    padding: 20px;
-    border-radius: 8px;
-    border: 3px solid #0051a8;
->>>>>>> fd7024110ee59dd3de31ab00a9177796b3a85204
 }
-
-h1, h2 {
-    color: #ffffff; 
+ul{
+    list-style: none;
+}
+ h2 {
+    color: #008CBA; 
     text-align: center;
-<<<<<<< HEAD
 }
 
 h1 {
@@ -55,40 +41,23 @@ h1 {
 }
 
 h2 {
-    color: #008CBA; 
     border-bottom: 3px solid #008CBA;
     padding-bottom: 5px;
     margin-bottom: 15px;
-=======
-    color: #ffffff;
->>>>>>> fd7024110ee59dd3de31ab00a9177796b3a85204
 }
 
 .resume-section {
     margin-top: 25px;
     padding: 15px;
-<<<<<<< HEAD
+    /* border: 1px solid #0048ff; */
     border-radius: 8px;
     background-color: #e0f7fa;
-    margin-bottom: 15px;
 }
-ul{
-    list-style: none;
-=======
-    border: 1px solid #004fb5;
-    border-radius: 6px;
-    background-color: #0098cb;
->>>>>>> fd7024110ee59dd3de31ab00a9177796b3a85204
-}
+
 p {
     margin: 5px 0;
-<<<<<<< HEAD
-    color: #000000;
-=======
-    color: #ffffff;
->>>>>>> fd7024110ee59dd3de31ab00a9177796b3a85204
+    color: #555;
     padding: 5px;
-    font-size: 18px;
 }
 
 p[contenteditable="true"] {
@@ -99,15 +68,9 @@ p[contenteditable="true"] {
 }
 
 button {
-<<<<<<< HEAD
     padding: 12px 25px;
     background-color: #008CBA;
     color: white;
-=======
-    padding: 10px 20px;
-    background-color: #00abe4;
-    color: #ffffff;
->>>>>>> fd7024110ee59dd3de31ab00a9177796b3a85204
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -116,11 +79,7 @@ button {
 }
 
 button:hover {
-<<<<<<< HEAD
-    background-color: #109ac7;
-=======
-    background-color: #007ad1;
->>>>>>> fd7024110ee59dd3de31ab00a9177796b3a85204
+    background-color: #0aa5d8;
 }
 
 .hidden {
@@ -130,15 +89,10 @@ button:hover {
 #editForm {
     margin-top: 25px;
     padding: 20px;
-<<<<<<< HEAD
     border: 1px solid #0048ff;
     border-radius: 8px;
     background-color: #e0f7fa;
-=======
-    border: 1px solid #007399;
-    border-radius: 6px;
-    background-color: #0092c3;
->>>>>>> fd7024110ee59dd3de31ab00a9177796b3a85204
+
 }
 
 #editForm label {
