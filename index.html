@@ -10,36 +10,82 @@
     <div class="container">
         <h1>Resume</h1>
         <div id="resumeDisplay">
+        <div class="resume-section">
+          <header>
+            <img src="WhatsApp Image 2024-09-08 at 2.07.54 PM.jpeg" alt="Profile Picture" class="profile-pic" id="profilePic">
+            <h1 id="name" contenteditable="false">JAVERIA FATIMA</h1>
+            <p id="email" contenteditable="false">📧 Email: fatimajaveria409@gmail.com</p>
+            <p id="phone" contenteditable="false">📞 Phone: 03328999505</p>
+        </header></div>
             <div class="resume-section">
-                <h2 id="personalInfoHeading" contenteditable="false">Personal Information</h2>
-                <p id="name" contenteditable="false">Javeria Fatima</p>
-                <p id="email" contenteditable="false">fatimajaveria@409.com</p>
+                <h2 id="educationHeading" contenteditable="false">🎓 Education</h2>
+                <p id="education" contenteditable="false">Intermediate student</p>
             </div>
 
             <div class="resume-section">
-                <h2 id="educationHeading" contenteditable="false">Education</h2>
-                <p id="education" contenteditable="false">Intermidiate student </p>
-            </div>
-
-            <div class="resume-section">
-                <h2 id="skillsHeading" contenteditable="false">Skills</h2>
+                <h2 id="skillsHeading" contenteditable="false">💼 Skills</h2>
                 <p id="skills" contenteditable="false">JavaScript, TypeScript, HTML, CSS</p>
             </div>
+            <div class="resume-section">
+                <h2 id="workexperienceHeading" contenteditable="false">🏢 Work Experience</h2>
+                <ul id="workexperience">
+                  <li>Built an interactive resume builder</li>
+                  <li>Designed and deployed a personal portfolio on GitHub and Vercel.</li>
+                </ul>
+        
+            </div>
+        
+            <div class="resume-section">
+                <h2 id="projectsHeading" contenteditable="false">📊 Projects</h2>
+                <p id="projects" contenteditable="false">Resume Builder - Five different versions showcasing modern UI/UX design.</p>
+            </div>
+        
+            <div class="resume-section">
+                <h2 id="contactHeading" contenteditable="false">🌐 Contact</h2>
+                <ul id="contact">
+                    <li> 📧 Email: fatimajaveria409@email.com</li>
+                    <li>📞 Phone: 03328999505</li>
+                    <li>🔗 LinkedIn: <a href="https://www.linkedin.com/in/javeria-fatima-5414a330b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">Click here</a></li>
+                </ul>
+            </div>
+
         </div>
+
         <button type="button" id="editResume">Edit Resume</button>
-                <div id="editForm" class="hidden">
+        <div id="editForm" class="hidden">
             <label for="editName">Name:</label>
             <input type="text" id="editName">
+            
             <label for="editEmail">Email:</label>
             <input type="email" id="editEmail">
+
+            <label for="editPhone">Phone:</label>
+            <input type="phone" id="editPhone">
+            
             <label for="editEducation">Education:</label>
             <textarea id="editEducation"></textarea>
+            
             <label for="editSkills">Skills:</label>
             <textarea id="editSkills"></textarea>
+            <label for="editWorkExperience">Work Experience:</label>
+            <textarea id="editWorkExperience"></textarea>
+            
+            <label for="editProjects">Projects:</label>
+            <textarea id="editProjects"></textarea>
+        
+            <label for="editContact">Contact:</label>
+            <textarea id="editContact"></textarea>
+
+            <label for="editImage">Profile Picture:</label>
+            <input type="file" id="editImage" accept="image/*"> 
+            
+
             <button type="button" id="saveChanges" onclick="saveChanges()">Save Changes</button>
             <button type="button" id="cancelEdit">Cancel</button>
         </div>
     </div>
+
     <script src="app.js"></script>
 </body>
-</html>
+</html> 
+
